@@ -1,0 +1,25 @@
+{
+  "name": "backtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node src/server.ts",
+    "migrate": "npx prisma migrate dev --preview-feature"
+  },
+  "author": "Arthur Lunkes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.3",
+    "prisma": "^5.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "express": "^4.18.2"
+  }
+}

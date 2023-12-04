@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  postgres:
+    build:
+      context: ./prisma
+    container_name: postgres
+    ports:
+      - "5430:5430"
+
+  node_app:
+    build:
+      context: ./
+    container_name: node_app
+    ports:
+      - "3001:3001"
+    depends_on:
+      - postgres
