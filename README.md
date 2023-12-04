@@ -2,7 +2,7 @@
 
 ## Sumário
 
-    Inserir aqui o sumário.
+Inserir aqui o sumário.
 
 ## Descrição
 
@@ -85,4 +85,4 @@ Inserir descrição aqui!
 
 ## Conclusões finais
 
-    Inserir aqui a conclusão.
+Inserir aqui a conclusão.
